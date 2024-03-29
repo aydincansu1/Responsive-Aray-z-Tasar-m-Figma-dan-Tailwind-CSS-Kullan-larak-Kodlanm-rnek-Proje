@@ -2,7 +2,7 @@ import React from "react";
 
 const Basket = () => {
   return (
-    <div className=" flex flex-col justify-center items-start py-12 px-4 gap-8  md:gap-20 md:p-20    isolate w-[393px] text-white md:w-[1440px] h-[1739px] md:h-[776px] bg-[#0F172A] border-2 border-blue-200 z-40">
+    <div className=" w-screen flex flex-col justify-center items-start py-12 px-4 gap-8  md:gap-20 md:p-20    isolate  text-white md:w-[1440px] h-[1739px] md:h-[776px] bg-[#0F172A] border-2 border-blue-200 z-40">
       <div className="flex flex-col justify-between md:flex-row items-center md:items-start gap-8 md:gap-20 t w-[362px] md:w-[1280px] h-[131px] md:h-[64px]">
         <h1 className="font-bold md:font-extrabold text-[32px] md:text-[56px] leading-9 md:leading-[62px] flex-grow-1">
           The best of the best

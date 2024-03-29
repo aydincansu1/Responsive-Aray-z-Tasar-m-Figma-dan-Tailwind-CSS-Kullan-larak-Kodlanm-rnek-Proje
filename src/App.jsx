@@ -10,7 +10,7 @@ import Footer from "./components/Footer";
 
 const App = () => {
   return (
-    <div className="flex flex-col items-start md:items-center isolate relative w-full md:w-[1440px] h-[7484.2px] md:h-[5545px] bg-white md:bg-gradient-to-b from-amber-50 to-white">
+    <div className="flex flex-col items-start md:items-center isolate relative w-full md:w-full h-[7484.2px] md:h-[5545px] bg-white md:bg-gradient-to-b from-amber-50 to-white">
       <div className="z-0 absolute top-[545px] md:top-[238px] md:hidden triangle"></div>
       <div className="z-0 absolute top-[545px] md:top-[238px] hidden md:block mdtriangle"></div>
       <Header />

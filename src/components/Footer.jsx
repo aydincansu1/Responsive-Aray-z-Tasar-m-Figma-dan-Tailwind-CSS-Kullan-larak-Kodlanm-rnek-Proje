@@ -25,7 +25,7 @@ const Footer = () => {
       title: "Get the App",
       items: [
         <img key="app-store" src={"./App Store - Filled.svg"} />,
-        <img key="google-play" src={"./Google Play.svg"} />,
+        <img key="google-play" src={"./Google Play.png"} />,
         "",
         "Follow Us",
         <img key="social-icons" src={"./Social Icons.svg"} />,
@@ -64,11 +64,11 @@ const Footer = () => {
 
       <div className="horizontal-line"></div>
 
-      <div className="w-[361px] md:w-[1280px] h-[190px] md:h-[96px] flex flex-col md:flex-row  justify-between items-center py-12  md:py-6  gap-6 md:gap-12 ">
-        <h1 className="font-normal text-[16px] leading-6   items-start text-[#E2E8F0] w-[361px] md:w-[930px] h-[22px]">
+      <div className="w-[361px] md:w-[1280px] h-[190px] md:h-[96px]  text-center md:text-start flex flex-col md:flex-row  py-12  md:py-6  gap-6 md:gap-12 ">
+        <h1 className="font-normal text-[16px] leading-6 items-start  text-[#E2E8F0] w-[361px] md:w-[930px] h-[22px]">
           Collers @ 2023. All rights reserved.
         </h1>
-        <div className="flex flex-row justify-end items-center gap-8 w-[302px] h-[48px]">
+        <div className="flex flex-row justify-end items-center  gap-8 w-[302px] h-[48px]">
           <h1>Terms</h1>
           <h1>Privacy</h1>
           <h1>Contact</h1>

@@ -16,7 +16,7 @@ const Main = () => {
           </button>
           <button className="justify-center items-center w-[179px] h-[56px]">
             <img
-              className="absolute w-[24px] h-[24px]"
+              className="absolute w-[24px]  h-[24px]"
               src="./icon/play-circle.svg"
               alt=""
             />
@@ -25,9 +25,9 @@ const Main = () => {
         </div>
       </div>
 
-      <div className="w-[361px] md:w-[486px] h-[314px] md:h-[423px] z-0">
+      <div className="relative w-[361px] md:w-[486px] h-[314px] md:h-[423px] z-0">
         <img
-          className="absolute w-[361px] md:w-[486px] h-[288px] md:h-[388px] left-[16px] md:left-[874px] "
+          className="absolute w-[361px] md:w-[486px] h-[288px] md:h-[388px] left-[16px]  "
           src="./RayPiedra.png"
           alt="Ray Piedra"
         />
