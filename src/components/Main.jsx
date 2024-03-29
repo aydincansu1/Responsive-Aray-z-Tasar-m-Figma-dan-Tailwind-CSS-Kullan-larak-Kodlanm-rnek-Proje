@@ -1,6 +1,6 @@
 const Main = () => {
   return (
-    <main className="flex flex-col md:flex-row justify-center items-start md:items-center py-12 px-4 md:p-20 w-[393px] md:w-[1440px] h-[802px] md:h-[583px] order-2 z-20 flex-none self-stretch gap-8 md:gap-20">
+    <main className="  flex flex-col md:flex-row justify-center items-start md:items-center py-12 px-4 md:p-20 w-[393px] md:w-screen h-[802px] md:h-[583px] order-2 z-20 flex-none self-stretch gap-8 md:gap-20">
       <div className="flex flex-col items-center md:items-start gap-8 md:gap-12 w-[361px] md:w-[714px] h-[360px] md:h-[257px] grow md:grow-0">
         <h1 className="text-[#0F172A] text-[56px] text-center md:text-start md:text-[72px] font-extrabold leading-[62px] md:leading-[79px]">
           Collectible Sneakers

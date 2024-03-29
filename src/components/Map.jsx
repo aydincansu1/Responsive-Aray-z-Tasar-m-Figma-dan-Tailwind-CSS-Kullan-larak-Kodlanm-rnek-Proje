@@ -2,7 +2,7 @@ import React from "react";
 
 const Map = () => {
   return (
-    <div className="relative flex flex-col justify-center items-center py-12 px-4 gap-8 isolate w-[393px] h-[717px] bg-amber-900 z-0 md:p-20 md:w-[1440px] md:h-[717px] overflow-hidden">
+    <div className="relative flex flex-col justify-center items-center py-12 px-4 gap-8 isolate w-[393px] h-[717px] bg-amber-900 z-0 md:p-20 md:w-screen md:h-[717px] overflow-hidden">
       <img
         src={"./mapfull.png"}
         alt="mapfull.png"

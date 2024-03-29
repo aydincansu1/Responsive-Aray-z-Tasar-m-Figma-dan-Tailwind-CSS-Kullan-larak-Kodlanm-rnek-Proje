@@ -22,7 +22,7 @@ const Content = () => {
     },
   ];
   return (
-    <section className="z-0 m-0  flex flex-col justify-center items-center py-12 px-4 md:p-20 gap-8 md:gap-20  isolate md:isolation-auto w-[393px] md:w-[1440px] h-[875px] md:h-[365px] order-3  bg-amber-100 md:bg-opacity-0  ">
+    <section className="z-0 m-0  flex flex-col justify-center items-center py-12 px-4 md:p-20 gap-8 md:gap-20  isolate md:isolation-auto w-[393px] md:w-screen h-[875px] md:h-[365px] order-3  bg-amber-100 md:bg-opacity-0  ">
       <div className="md:flex md:flex-row md:items-start md:gap-20 md:w-[1280px] md:h-[205px] ">
         {items.map((item, index) => (
           <div

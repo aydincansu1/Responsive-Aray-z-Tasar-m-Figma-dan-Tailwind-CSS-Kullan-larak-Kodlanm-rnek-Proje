@@ -18,7 +18,6 @@ const App = () => {
       <div>
         <Main />
         <Content />
-
         <Basket />
         <Video />
         <Slider />

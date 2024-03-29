@@ -92,7 +92,7 @@ const Slider = ({ sliderData }) => {
   );
 
   return (
-    <div className="flex relative flex-col justify-center items-start py-12 px-4 md:p-20 gap-8 md:gap-20 w-[393px] md:w-[1440px] h-[459px] md:h-[732px] z-[6] overflow-hidden">
+    <div className="flex relative flex-col justify-center items-start py-12 px-4 md:p-20 gap-8 md:gap-20 w-[393px] md:items-center md:w-screen h-[459px] md:h-[732px] z-[6] overflow-hidden">
       <div className="absolute md:w-[1360px] h-[277px] md:h-[421px] left-0 md:left-[calc(50%-680px)] right-0 top-[99px] md:top-[182px] z-0 bg-[#FDE68A]"></div>
       <div className="md:flex md:flex-row md:items-center md:gap-12 md:w-[1280px] md:h-[62px]">
         <div className="flex flex-col items-center md:items-start gap-8 w-[361px] md:w-[1112px] h-[25px] md:h-[62px] z-10">

@@ -2,8 +2,8 @@ import React from "react";
 
 const Collection = () => {
   return (
-    <section class="flex relative flex-col justify-center items-start pt-12 pr-4 pb-24 pl-4 gap-8  w-[393px] h-[722px] z-50 md:pt-20 md:pr-20 md:pb-32 md:pl-20 md:gap-20 isolate md:w-[1440px] md:h-[996px] overflow-hidden">
-      <div className="absolute w-[1440px] h-[684px] left-0 top-[38px] md:top-[312px] z-0">
+    <section class="flex relative md:items-center flex-col justify-center items-start pt-12 pr-4 pb-24 pl-4 gap-8  w-[393px] h-[722px] z-50 md:pt-20 md:pr-20 md:pb-32 md:pl-20 md:gap-20 isolate md:w-screen md:h-[996px] overflow-hidden">
+      <div className="absolute w-[1440px] h-[684px]  top-[38px] md:top-[312px] z-0 md:items-center">
         <img
           src={"./Vector 10.svg"}
           alt="Vector 12.svg"

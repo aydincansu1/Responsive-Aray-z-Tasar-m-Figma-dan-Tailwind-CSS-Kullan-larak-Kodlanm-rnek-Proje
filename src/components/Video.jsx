@@ -1,8 +1,8 @@
 const Video = () => {
   return (
-    <section className="flex flex-col items-start py-8 px-4 md:py-40 md:px-20 w-[393px] md:w-[1440px] h-[689px] md:h-[816px] z-50 ">
+    <section className="flex flex-col items-start py-8 px-4 md:py-40 md:px-20 w-[393px]  md:items-center md:w-screen h-[689px] md:h-[816px] z-50 ">
       <div
-        className="relative flex flex-col md:flex-row items-start md:items-center py-8 px-4 md:p-20 gap-8 md:gap-20 w-[361px] md:w-[1280px] h-[617px] md:h-[496px] bg-white rounded-[30px]"
+        className="relative flex flex-col md:flex-row items-start md:items-center py-8 px-4 md:p-20  gap-8 md:gap-20 w-[361px] md:w-[1280px] h-[617px] md:h-[496px] bg-white rounded-[30px]"
         style={{
           boxShadow:
             "0px 20px 25px -5px rgba(0, 0, 0, 0.1), 0px 0px 10px rgba(0, 0, 0, 0.07)",
