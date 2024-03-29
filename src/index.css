@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.triangle {
+  width: 393px;
+  height: 324px;
+  border-left: 393px solid transparent;
+  border-right: -393px solid transparent;
+  border-bottom: 324px solid #fef3c7; /* İstenilen arka plan rengi */
+  rotate: -90deg -180deg;
+}
+
+.mdtriangle {
+  width: 0;
+  height: 0;
+  border-top: 806px solid transparent; /* Üst kenarı oluşturmak için */
+  border-bottom: -806px solid transparent; /* Alt kenarı oluşturmak için */
+  border-right: 1428px solid #fef3c7; /* Sağ kenarı oluşturmak için ve istenen arka plan rengi */
+  transform: scaleX(1); /* X ekseninde ayna şeklinde çevirme */
+}
+
+.horizontal-line {
+  border-bottom: 1px solid #e2e8f054; /* Çizgi rengi ve kalınlığını buradan ayarlayabilirsiniz */
+  width: 100%; /* Çizginin genişliği */
+  margin: 10px 0; /* İsteğe bağlı: Çizginin yukarı ve aşağı boşluğu */
+}
