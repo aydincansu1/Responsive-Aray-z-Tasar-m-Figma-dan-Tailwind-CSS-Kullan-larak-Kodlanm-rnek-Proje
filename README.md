@@ -1,8 +1,3 @@
-# React + Vite
+## Responsive Arayüz Tasarımı: Figma'dan Tailwind CSS Kullanılarak Kodlanmış Örnek Proje
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Bu proje, Figma'da tasarlanmış bir arayüzün responsive olarak Tailwind CSS kullanılarak kodlanmış örnek bir çalışmayı içermektedir. Projede, gerekli yerlerde dinamik tasarım özellikleri de uygulanmıştır. Örneğin, ileri-geri butonları ile elementlerin kaydırılması gibi interaktif özellikler bulunmaktadır. Bu çalışma, frontend geliştirme becerilerini sergilemek ve responsive web tasarımı konusundaki yetkinliği göstermek amacıyla oluşturulmuştur.
